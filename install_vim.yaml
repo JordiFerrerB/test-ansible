@@ -1,0 +1,11 @@
+---
+
+- hosts: debian
+  become: true
+  tasks:
+  - name: Instalar VIM
+    ansible.builtin.apt:
+      name: vim
+      state: latest
+      update_cache: yes
+      force_apt_get: true
