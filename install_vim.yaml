@@ -3,6 +3,7 @@
 - hosts: debian
   become: true
   become_user: root
+  become_method: sudo
   tasks:
   - name: Instalar VIM
     ansible.builtin.apt:
