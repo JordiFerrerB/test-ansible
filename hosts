@@ -48,4 +48,4 @@
 
 [debian:vars]
 ansible_user=jordi
-ansible_password=311295.Jfb
+ansible_password=0000
